@@ -18,7 +18,6 @@ export class TodoListComponent implements DoCheck{
    this.setLocalStorage();
   }
   ngOnInit(): void {
-    
   }
 
   public setEmitTaskList(event: string){
